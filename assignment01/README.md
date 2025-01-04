@@ -1,12 +1,9 @@
 # Explanation
 
 - 완성 코드: word_count1.c
+- 정답 코드: word_count1
 
 input: words.s.txt (정렬된 input)
-
-word_count1(정답) 실행 방법
-- 단어순 정렬: $ ./word_count1 -n words.s.txt > 출력파일명
-- 빈도순 정렬: $ ./word_count1 -f words.s.txt > 출력파일명
 
 
 **구조체 정의**
@@ -32,3 +29,9 @@ tWordDic: tWord 구조체의 배열(data)과 현재 저장된 단어의 수(len)
 - main 함수
   - 명령어를 인자 단위로 처리하여 출력 양식 결정
   - 사전 초기화 후, 구조체 제작, 출력
+
+
+## 정답 코드 실행 방법
+
+- 단어순 정렬: $ ./word_count1 -n words.s.txt > 출력파일명
+- 빈도순 정렬: $ ./word_count1 -f words.s.txt > 출력파일명
