@@ -424,16 +424,6 @@ void connect_by_frequency( LIST *list)
 
 }
 
-// internal function
-// for connect_by_frequency function
-// connects node into a frequency list
-static void _link_by_freq( LIST *pList, NODE *pPre, NODE *pLoc)
-{
-
-
-
-}
-
 
 // 사전을 화면에 출력 ("단어\t빈도" 형식)
 void print_dic( LIST *pList) // 단어순
