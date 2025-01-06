@@ -3,7 +3,7 @@
 - 완성 코드: word_count2.c
 - 정답 코드: word_count2
 
-input: words.s.txt (정렬된 input)
+input: words.txt (정렬되지 않은 input)
 
 
 **구조체 정의**
